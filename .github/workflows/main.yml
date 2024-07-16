@@ -6,6 +6,9 @@ on:
     branches: ['master']
   # Позволяет запустить этот рабочий процесс вручную на вкладке Actions tab
   workflow_dispatch:
+
+env:
+  PUBLIC_PATH: /github_actions/
   
 # Устанавливает права GITHUB_TOKEN, чтобы разрешить развёртывание на GitHub Pages
 permissions:
